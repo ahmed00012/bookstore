@@ -67,29 +67,5 @@ public class bookadapter extends RecyclerView.Adapter<bookadapter.MyViewHolder> 
     }
 }
 
-//public class bookadapter extends ArrayAdapter<book> {
-//    public bookadapter(  Context context, ArrayList<book> book) {
-//        super(context, 0,book);
-//
-//    }
-//
-//
-//    @Override
-//    public View getView(int position,  View convertView,  ViewGroup parent) {
-//        convertView=LayoutInflater.from(getContext()).inflate(R.layout.custom_row,parent,false);
-//        ImageView img=convertView.findViewById(R.id.img1);
-//        RatingBar rate=convertView.findViewById(R.id.rate);
-//        TextView name=convertView.findViewById(R.id.txt1);
-//        TextView author=convertView.findViewById(R.id.txt2);
-//        book books=getItem(position);
-//        name.setText(books.getName() );
-//        author.setText(books.getAuthor());
-//        img.setImageResource(books.getImg());
-//        rate.setRating(books.getRate());
-//
-//
-//
-//        return convertView;
-//    }
-//}
+
 
